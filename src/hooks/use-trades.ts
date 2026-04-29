@@ -19,8 +19,16 @@ const SEED_TRADES: Trade[] = [
   { id: "w2-cdxs-buy", ticker: "CDXS", type: "buy", amount: 30.00, price: 2.60, date: "2026-04-20", week: "Apr 20-24", notes: "April 30 earnings catalyst" },
   { id: "w2-cdxs-sell", ticker: "CDXS", type: "sell", amount: 30.35, price: 2.63, date: "2026-04-24", week: "Apr 20-24", notes: "+1.17%" },
   { id: "w2-oabi-buy", ticker: "OABI", type: "buy", amount: 30.00, price: 1.62, date: "2026-04-20", week: "Apr 20-24", notes: "Antibody discovery pipeline" },
+  { id: "w3-oabi-sell", ticker: "OABI", type: "sell", amount: 26.93, price: 1.45, date: "2026-04-27", week: "Apr 27-May 1", notes: "-10.23%" },
   { id: "w2-edit-buy", ticker: "EDIT", type: "buy", amount: 30.00, price: 3.44, date: "2026-04-20", week: "Apr 20-24", notes: "Gene editing sector play" },
+  { id: "w3-edit-sell", ticker: "EDIT", type: "sell", amount: 24.43, price: 2.80, date: "2026-04-27", week: "Apr 27-May 1", notes: "-18.57%" },
   { id: "w2-alt-buy", ticker: "ALT", type: "buy", amount: 30.00, price: 3.54, date: "2026-04-20", week: "Apr 20-24", notes: "MASH Phase 3 catalyst" },
+  { id: "w3-alt-sell", ticker: "ALT", type: "sell", amount: 24.76, price: 2.92, date: "2026-04-27", week: "Apr 27-May 1", notes: "-17.47%" },
+  { id: "w3-hovr-buy", ticker: "HOVR", type: "buy", amount: 25.00, price: 2.12, date: "2026-04-27", week: "Apr 27-May 1", notes: "New Horizon Aircraft" },
+  { id: "w3-cast-buy", ticker: "CAST", type: "buy", amount: 20.00, price: 2.94, date: "2026-04-27", week: "Apr 27-May 1", notes: "Freecast media" },
+  { id: "w3-gevo-buy", ticker: "GEVO", type: "buy", amount: 25.00, price: 1.84, date: "2026-04-27", week: "Apr 27-May 1", notes: "Sustainable aviation fuel" },
+  { id: "w3-clls-buy", ticker: "CLLS", type: "buy", amount: 25.00, price: 3.90, date: "2026-04-27", week: "Apr 27-May 1", notes: "Cellectis gene therapy" },
+  { id: "w3-cdxs-buy", ticker: "CDXS", type: "buy", amount: 25.00, price: 2.77, date: "2026-04-27", week: "Apr 27-May 1", notes: "Re-entry ahead of Apr 30 earnings" },
 ]
 
 export function useTrades() {
